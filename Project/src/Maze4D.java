@@ -15,7 +15,7 @@ public class Maze4D {
         Point4D p, q;
         Random rand = new Random();
         max = (int)Math.pow(size,planes); // Number of 4D points in the maze
-        boolean printOutput = false, writeOutput = false;
+        boolean printOutput = false, writeOutput = true;
 
         long t1 = System.nanoTime();
         initializeMaze(); // Create points
